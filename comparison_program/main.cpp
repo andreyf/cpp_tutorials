@@ -9,11 +9,11 @@ int main() {
     string text2 = "abc"; // присваиваем text2 "abc"
 
     if(perem1 <= perem2) {
-        cout << "Переменная 2 больше";
+        cout << "Переменная 2 больше" << endl;
     }
 
-    if(tekst1 == tekst2) {
-        cout << "Текст 1 такой же, как текст 2";
+    if(text1 == text2) {
+        cout << "Текст 1 такой же, как текст 2" << endl;
     }
 
     return 0;
