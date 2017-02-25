@@ -6,6 +6,8 @@ int main() {
 
     int tab[8][6]; //Мы создаем массив типа int размером 8х6
 
+    cout << "Введите элементы массива" << endl;
+
     for(int i = 0; i<8; i++)
         for(int j = 0; j<6; j++)
             cin >> tab[i][j];
